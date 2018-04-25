@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Quicksand");
+body { font-family: 'Quicksand', sans-serif; background-color: lightblue; text-align: center; color: white; }
+
+.btn-container { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-direction: column; flex-direction: column; margin-top: 25%; }
+
+.btn-text { color: white; }
+
+.trigger { width: 30%; height: 40px; border: 1px solid white; border-radius: 3px; background-color: transparent; }
+
+.tweet { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; color: white; width: 30%; height: 40px; border: 1px solid white; border-radius: 4px; margin-top: 40px; text-decoration: none; }
+
+.fa-twitter { color: white; font-size: 30px; }
+/*# sourceMappingURL=style.css.map */
