@@ -31,11 +31,11 @@ $(function() {
 
     $(".tweet").attr("href", tweet);
   }
-});
 
-$(document).ready(function() {
-  getQuote();
-  $(".trigger").click(function() {
+  $(document).ready(function() {
     getQuote();
+    $(".trigger").click(function() {
+      getQuote();
+    });
   });
 });
